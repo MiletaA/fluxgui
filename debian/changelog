@@ -1,5 +1,5 @@
 # -*- text -*-
-fluxgui (2.0.1~pre) wily; urgency=low
+fluxgui (2.0.1pre) wily; urgency=low
 
   * fix buggy appindicator import
   https://github.com/xflux-gui/fluxgui/commit/a21f55fc61f596cfc74e22bef3aaa3ad761f8393
