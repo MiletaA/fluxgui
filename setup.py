@@ -64,8 +64,8 @@ if (os.path.exists("xflux")):
     data_files.append(('bin', ['xflux']))
 else:
     print("""WARNING: if you are running 'python setup.py' manually, and not as
-part of Debian package creation, then you need to download the 'xflux'
-binary separately. You can do this by running
+part of Debian package creation, and you intend to use the DEPRECATED xflux backend,
+then you need to download the 'xflux' binary separately. You can do this by running
 
     ./download-xflux.py
 

@@ -1,3 +1,13 @@
+THIS PACKAGE IS BARELY MAINTAINED
+======================
+
+You should use [`redshift-gtk`](https://github.com/jonls/redshift) instead. That's what I use :)
+
+THE INSTALLATION PROCESS IS BROKEN IN PYTHON VERSIONS AFTER 3.9
+======================
+
+See [Issue #178](https://github.com/xflux-gui/fluxgui/issues/178).
+
 XFLUX DOES NOT WORK ON MOST MODERN SYSTEMS
 ======================
 
@@ -8,7 +18,7 @@ no plans to fix it. Because of this, Fluxgui by default now uses
 [Redshift](http://jonls.dk/redshift/) to control your screen color,
 which should be supported on all systems.
 
-See Issue #27 for why `xflux` probably won't work on your system and
+See [Issue #27](https://github.com/xflux-gui/fluxgui/issues/27) for why `xflux` probably won't work on your system and
 how to test if it can.
 
 f.lux indicator applet
@@ -86,6 +96,12 @@ Partial list of Python 3 dependencies (after the upgrade to GTK+ 3 in PR #112. I
 
 ```bash
 sudo apt-get install python3-pexpect python3-distutils python3-xdg gir1.2-ayatanaappindicator3-0.1 gir1.2-gtk-3.0 redshift
+```
+
+According to [this comment]( https://github.com/xflux-gui/fluxgui/issues/176#issuecomment-2295441326), these deps may also be needed:
+
+```bash
+gir1.2-appindicator3-0.1 python3-gi python3-gi-cairo
 ```
 
 Out of date Python 2 dependencies; the remaining Python 3 deps should be similar:
