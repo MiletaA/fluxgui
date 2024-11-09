@@ -1,0 +1,5 @@
+requests
+pygobject
+pycairo
+pexpect
+pyxdg
